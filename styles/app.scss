@@ -6,9 +6,4 @@
 
 @import 'variables';
 @import 'box-sizing';
-
-
-body {
-  background: url('img/bg.png') no-repeat top center fixed;
-  background-size: cover;
-}
+@import 'base';
