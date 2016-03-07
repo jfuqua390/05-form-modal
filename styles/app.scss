@@ -3,4 +3,12 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+@import 'variables';
 @import 'box-sizing';
+
+
+body {
+  background: url('img/bg.png') no-repeat top center fixed;
+  background-size: cover;
+}
