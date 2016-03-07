@@ -12,38 +12,47 @@
 .modal-container {
   display: flex;
 
-  position: fixed;
+  position: absolute;
 
   // comeback and adjust //
-  top: 10%;
-  right: 10%;
+  top: 12.5vh;
+  right: 12.5%;
+
 
   flex-direction: column;
-  width: 75%;
-  margin: auto;
+  width: 75vw;
+  // height: 75vh;
+  margin: $gutter;
 
   background: $card-background;
   color: $input-color;
   box-shadow: $brand-shadow;
+
+
+
 }
 
 .card_title {
   margin: $gutter;
   padding-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+
+  flex-grow: 1;
 }
 
 
 .card_actions {
   display: flex;
   justify-content: flex-end;
+
 }
 
 .form_button {
-  padding: 1rem 2rem;
+  margin: 1rem;
+  padding: 1.2rem 2rem;
 
-  margin: 2rem;
 
   color: $card-background;
   font-size: 1.2rem;
+  font-weight: bold;
 }

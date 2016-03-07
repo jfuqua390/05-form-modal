@@ -4,18 +4,20 @@ body {
 
   background: url('img/bg.png') no-repeat top center fixed;
   background-size: cover;
+  min-height: 100vh;
+  padding: $gutter;
+
+  overflow: scroll;
 }
 
 body:before {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
   content: '';
-
-
 }
 
 input {
