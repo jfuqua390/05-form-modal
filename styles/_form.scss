@@ -1,0 +1,42 @@
+.row {
+  width: 100%;
+
+  border-bottom: $brand-border;
+  flex-grow: 1;
+}
+
+.card_field {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: -1rem 0 1rem;
+}
+
+.input_box {
+  display: flex;
+  flex-direction: column;
+
+  width: (100% / 3);
+  min-width: $input-min-width;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.card_label {
+  color: $label-color;
+}
+
+.card_input {
+
+  border: 0;
+  border-bottom: $brand-border;
+  background: none;
+  color: $input-color;
+  font-size: 1.1rem;
+
+
+}
+
+::-webkit-input-placeholder {
+ color: $input-color;
+}

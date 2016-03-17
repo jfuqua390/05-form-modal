@@ -1,0 +1,48 @@
+
+
+body {
+  margin: auto;
+  font-family: sans-serif;
+
+  background: url('img/bg.png') no-repeat top center fixed;
+  background-size: cover;
+
+
+
+
+  overflow: scroll;
+}
+
+.modal-big-container {
+  background: $background-haze;
+  min-height: 100vh;
+  padding: $gutter;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+// body:before {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   background: rgba(0, 0, 0, 0.7);
+//   content: '';
+// }
+
+input {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+
+  list-style: none;
+}

@@ -1,6 +1,60 @@
-// @import "yoga";
-// @import "normalize";
+// @import 'yoga';
+// @import 'normalize';
 
-// $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
-// @import "font-awesome";
-@import "box-sizing";
+// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+// @import 'font-awesome';
+
+@import 'variables';
+@import 'box-sizing';
+@import 'base';
+@import 'form';
+
+.modal-container {
+  display: flex;
+
+
+
+
+  // comeback and adjust //
+
+
+  flex-direction: column;
+  width: 75vw;
+  // height: 75vh;
+  margin: $gutter;
+
+  background: $card-background;
+  color: $input-color;
+  box-shadow: $brand-shadow;
+
+
+
+}
+
+.card-title {
+  flex-grow: 1;
+  margin: $gutter;
+  padding-top: 1rem;
+  color: $brand-black;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.form-button {
+  margin: 1rem;
+  padding: 1.2rem 2rem;
+
+  border: 0;
+  border-radius: 0.2rem;
+  background: $brand-primary;
+  color: $card-background;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
