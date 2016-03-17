@@ -31,27 +31,29 @@
 
 }
 
-.card_title {
+.card-title {
+  flex-grow: 1;
   margin: $gutter;
   padding-top: 1rem;
-  font-size: 1.5rem;
-
-  flex-grow: 1;
+  color: $brand-black;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 
-.card_actions {
+.card-actions {
   display: flex;
   justify-content: flex-end;
 
 }
 
-.form_button {
+.form-button {
   margin: 1rem;
   padding: 1.2rem 2rem;
 
   border: 0;
   border-radius: 0.2rem;
+  background: $brand-primary;
   color: $card-background;
   font-size: 1.2rem;
   font-weight: bold;
